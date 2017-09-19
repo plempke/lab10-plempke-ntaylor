@@ -1,5 +1,5 @@
 package lab1;
-
+import java.util.Arrays;
 import java.util.*;
 
 public class Redo {
@@ -24,7 +24,26 @@ public class Redo {
 //      }
 //    }
   }
-  public static Object[] fizzBuzz(int n){
+//  public static Object[] fizzBuzz(int n){
+//    Object[] array = new Object[n];
+//    for(int i = 1; i <= array.length; i++){
+//      if(i%15 == 0){
+//        array[i-1] = "FizzBuzz";
+//      }
+//      else if(i%5 == 0){
+//        array[i-1] = "Buzz";
+//      }
+//      else if(i%3 ==0){
+//        array[i-1] = "Fizz";
+//      }
+//      else{
+//        array[i-1] = i;
+//      }
+//    }
+//    return array;
+//      }
+      
+    public static Object[] fizzBuzz(int n){
     Object[] array = new Object[n];
     for(int i = 1; i <= array.length; i++){
       if(i%15 == 0){
@@ -40,6 +59,7 @@ public class Redo {
         array[i-1] = i;
       }
     }
+    Arrays.asList(array);
     return array;
-      }
-    }
+      }  
+  }
