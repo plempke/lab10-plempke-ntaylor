@@ -1,57 +1,23 @@
-[![Build Status](https://travis-ci.org/LoyolaChicagoCode/hello-java.svg?branch=master)](https://travis-ci.org/LoyolaChicagoCode/hello-java)
+#Welcome, this is my Markdown for Lab1
 
-This build will always fail because it has 2 examples of failing tests:
-one based on the source code, and one based on an incorrect test.
+#Part2 Discussion: What would be a really simple solution if n were not an argument?
+#if we were to write a solution without n we could just as easily set our for loop to run
+#until it reached 17 and set our logical values to their respective modulators and 
+# print off the output for our integers, Fizz, Buzz, and FizzBuzz respectively
 
-# Learning Objectives
+#Part3 Discussion: How could you have automatically tested your initial solution from part 2?
+#You could have set a value to your variable n and ran the program as is to see if the result was correct
 
-* Simple hello world example
-* Experience with Git source code management
-* Building with Gradle (using the Gradle wrapper)
-* Automated unit testing with JUnit
-* Continuous integration with Travis
+#Part4 Discussion: What changes between parts 2, 3, and 4, and what stays the same? Does it matter what implementation you choose? if so, in what way?
 
-# System requirements
-
-* Java 6 SDK or later
-
-# Running the Application
-
-On Linux or Mac OS X:
-
-    $ ./gradlew run
-	
-On Windows:
-	
-    > gradlew run
-
-# Running the Tests
-
-On Linux or Mac OS X:
-
-    $ ./gradlew test
-	
-On Windows:
-	
-    > gradlew test
-
-# Running the Application Outside Gradle
-
-Unlike running the application using Gradle's `run` task,
-this allows passing command-line arguments.
-
-On Linux or Mac OS X:
-
-    $ ./build/scripts/hello-java arg1 arg2 arg3
-
-or
-
-    $ java -jar build/lib/hello-java.jar arg1 arg2 arg3
-
-On Windows:
-
-    > .\build\scripts\hello-java arg1 arg2 arg3
-
-or
-
-    > java -jar build\lib\hello-java.jar arg1 arg2 arg3
+#between parts 2 and 3 instead of having my program print off the resulting value in the string I had it return the instance of the array
+#from parts 3 to 4 *I no longer had an array as the returning object*. I was able to have it store my information by using a java collections
+#and in turn *creating a list that stored my data*.
+ 
+#throughout all of this my logic remainded the same
+ 
+#With regards to which implementation, as you progress through each part the code that is being executed becomes more and **more sophisticated**
+#you transition from printing off a string, to returning an array, to returning a list; which is superior to an array for it's versitility
+ 
+##Part5 Discussion: Markdown created!
+ 
